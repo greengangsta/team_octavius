@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<h1 align="center">Team Octavius</h1>
+<body style="background-color:#E6E6FA">
+
+<ul >
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#aboutus">About Us </a></li>
+  <li><a href="#ourteam">Our Team</a></li>
+  <li><a href="#sponsors">Sponsors</a></li>
+</ul>
+
+
+ <link rel="stylesheet" href="styles.css">
+ 
+ <body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+ <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+
+<h2 align="center">About us</h2><br><br><br>
+<hr>
+<br><br>
+<h2 >Who are we?</h2>
+
+  <div class="person1" style="float:; display:inline-block; ">
+        <span style="float:right;width: 40%;">
+            <img style="margin: 10px 40px" src="img1.jpg"
+             width="100%" height="60%" />
+        </span>
+        <span style="float:left;width: 60%;">
+            <p align="justify" style="float:left; display:block; ">Team Octavius is the formula student team of JSS Academy of Technical Education, NOIDA. We are a family of 50 college students brought together by their passion for technology, innovation and creativity and work with the aim of fabricating an open wheel race car with focus on good design, reliability and performance. In the process we learn a lot more than the usual courses in terms of practice and implementation.
+Since our inception in 2006, the team has participated in FS California (2007), FS UK (2008), FS UK (2009), FS UK (2012) and FDC India (2015). Till now our cars were conventionally fuelled, but from 2015, we have pivoted to electric cars for reasons like better performance, efficiency of electric cars and the need for development of sustainable transport in India.
+        </span>
+ </div>
+<hr>
+<br><br>
+<h2>What is Formula Student?</h2>
+<p></p>
+
+
+
+  <div class="person1" style="float:; display:inline-block; ">
+        <span style="float:right;width: 40%;">
+            <img  style="margin: 10px 40px" src=" img2.jpg"
+             width="100%" height="60%" />
+        </span>
+        <span style="float:left;width: 60%;">
+            <p align="justify" style="float:left; display:block; ">Cars made by us go for a run at Formula Student/ Formula SAE competitions. Formula student and Formula SAE are student design competitions organised by SAE international. Around 500 universities from all over the world participate every year in formula student events held in 8 different countries around the world and it can be easily considered to be the biggest international student competition.
+The concept behind Formula SAE is that a fictional manufacturing company has contracted a design team to develop a small Formula-style race car. The prototype race car is to be evaluated for its potential as a production item. The target marketing group for the race car is the non-professional weekend autocross racer. Each student team designs, builds and tests a prototype based on a series of rules whose purpose is both to ensure onsite event operations and promote clever problem solving.
+The competition promotes careers and excellence in engineering as it encompasses all aspects of the automotive industry including research, design, manufacturing, testing, developing, marketing, management and finances. Formula SAE takes students out of the classroom and allows them to apply textbook theories to real work experiences.
+            </p>
+        </span>
+ </div>
+
+<hr>
+<br><br>
+
+
+<h2>Team Structure</h2>
+<p><u>Technical team</u> - technical team aims at:</p>
+<ol>
+<li>Designing and producing a new race car every year.</li><br>
+<li>Bringing out new and innovative ideas.</li><br>
+<li>To justify their product at design events at the competition.</li><br>
+</ol>
+<p><u>Operations team</u> – operations team is responsible for:</p>
+<ol>
+<li>Presenting the car at static events (cost report and business logic case).</li><br>
+<li>Gathering funds for manufacturing cars.</li><br>
+<li>Organising  various promotional events</li><br>
+</ol>
+
+<br><br><br><br>
+<h3>Follow us on</h3>
+</html>
