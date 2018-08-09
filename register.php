@@ -43,7 +43,8 @@ if(loggedin()){
   }
 
   ?>
-  <h1><strong>Hospital Management System</strong></h1>
+ <h1 align="center"><i>Team Octavius</i></h1>
+  <link rel="stylesheet" href="styles.css">
  <hr> <br><br>
   <h2>New User Registration</h2>
 <form action="register.php" method="POST">
@@ -66,12 +67,10 @@ Email:<br> <input placeholder="example@mail.com" type="email" name="email" requi
 
 <style>
     body{
-     background-color: LightSteelBlue;
-       background-image: url("tube.jpg");
   background-size: 100% ,100%;
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: fixed;
     }
 </style>
-<br><br><br><br><h2><a href=loginhm.php>HOME</a></h2>
+<br><br><br><br><h2><a href=login.php>HOME</a></h2>
