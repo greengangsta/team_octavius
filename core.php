@@ -17,7 +17,7 @@ function loggedin(){
    }
 }
 function getuserfield($field){
-  $db=new mysqli('localhost','root','','app');
+  $db=new mysqli('localhost','root','','teamoctavius');
  $query="SELECT `$field` FROM `users` WHERE `id`='".$_SESSION['user_id']."'";
   if($query_run=mysqli_query($db,$query)){
   if($query_result=$query_run->fetch_assoc()[$field]){

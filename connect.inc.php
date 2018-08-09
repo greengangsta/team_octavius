@@ -1,6 +1,6 @@
  <?php
 
-$db=new mysqli('localhost','root','','app');
+$db=new mysqli('localhost','root','','teamoctavius');
 
 
 if($db->connect_errno) {
